@@ -1,0 +1,132 @@
+.header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.searchbar {
+    display: inline-flex;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    border-width: thin;
+    border-color: rgb(65, 65, 65);
+}
+
+.search {
+    height: 50px;
+    padding: 0;
+    border: 0;
+    width: 50px;
+    background: #05070D;
+}
+
+.search:hover {
+    background: #0d1222;
+}
+
+.searchInput {
+    height: 50px;
+    padding: 0;
+    border: 0;
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 15px;
+    width: 500px;
+    background: #05070D;
+    color: white;
+}
+
+.searchInput:focus {
+    background-color: white;
+    border-style: none;
+    outline: none;
+    background: #05070D;
+}
+
+.information-main {
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    height: 300px;
+}
+
+.nextto {
+    display: inline-block;
+    width: 300px;
+    margin-right: 200px;
+}
+
+.nextto3 {
+    display: inline-block;
+    width: 400px;
+}
+
+.skin-image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    float: left;
+}
+.skin-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.skin-information {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.contained {
+    height: 70px;
+    width: 400px;
+    background: rgb(19, 19, 24);
+    margin-bottom: 5px;
+    padding: 5;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.childImage {
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.childText {
+    width: 330px;
+    display: inline-flex;
+    float: right;
+}
+
+.gap {
+    width: 21px;
+}
+.childTexts {
+    width: 96px;
+    place-items: center;
+}
+
+.childMainText {
+    height: 15px; 
+    margin-top: 16px; 
+    margin-bottom: 6.5px; 
+    font-weight: 600;
+    font-family: 'Golos Text'
+}
+
+.childSubText {
+    font-weight: 400;
+    height: 15px; 
+    margin-top: 6.5px; 
+    margin-bottom: 16px;
+    font-family: 'Golos Text'
+}
